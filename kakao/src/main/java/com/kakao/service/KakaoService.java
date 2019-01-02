@@ -13,7 +13,7 @@ import com.kakao.domain.SequenceException;
 import com.mongodb.WriteResult;
 
 public interface KakaoService {
-	//등록입니다.
+	//등록
 	public int register(KakaoVO vo);
 	//목록조회
 	public List<KakaoVO> getList(Long mno);
