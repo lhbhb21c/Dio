@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:core="http://activemq.apache.org/schema/core"
+	xsi:schemaLocation="http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring-1.2.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://activemq.apache.org/schema/core http://activemq.apache.org/schema/core/activemq-core.xsd">
+	<!-- Root Context: defines shared resources visible to all other web components -->
+
+	<broker xmlns="http://activemq.apache.org/schema/core" brokerName="localhost" dataDirectory="${activemq.data}">
+		<transportConnectors>
+			<transportConnector name="openwire"
+				uri="tcp://localhost:61616" />
+			<transportConnector name="ws"
+				uri="ws://localhost:61614" />
+		</transportConnectors>
+
+	</broker>
+</beans>

@@ -1,0 +1,224 @@
+    #outlook a{
+      			padding:0;
+      		}
+      		body{
+      			width:100% !important;
+      			-webkit-text-size-adjust:none;
+      			margin:0;
+      			padding:0;
+      		}
+      		img{
+      			border:none;
+      			font-size:14px;
+      			font-weight:bold;
+      			height:auto;
+      			line-height:100%;
+      			outline:none;
+      			text-decoration:none;
+      			text-transform:capitalize;
+      		}
+      		#backgroundTable{
+      			height:100% !important;
+      			margin:0;
+      			padding:10px;
+      			width:100% !important;
+      		}
+      		body,.backgroundTable{
+      			background-color:rgba(255,255,255,1);
+      		}
+      		h1,.h1{
+      			color:#000;
+      			display:block;
+      			font-family:Open Sans,Arial;
+      			font-size:24px;
+      			font-weight:lighter;
+      			line-height:100%;
+      			margin-bottom:30px;
+      			text-align:left;
+      		}
+      		h2,.h2{
+      			color:#000;
+      			display:block;
+      			font-family:Open Sans,Arial;
+      			font-size:22px;
+      			font-weight:lighter;
+      			line-height:100%;
+      			margin-bottom:20px;
+      			text-align:left;
+      		}
+      		h3,.h3{
+      			color:#000;
+      			display:block;
+      			font-family:Open Sans,Arial;
+      			font-size:18px;
+      			font-weight:lighter;
+      			line-height:100%;
+      			margin-bottom:10px;
+      			text-align:left;
+      		}
+      		h4,.h4{
+      			color:#000;
+      			display:block;
+      			font-family:Open Sans,Arial;
+      			font-size:14px;
+      			font-weight:bold;
+      			line-height:100%;
+      			margin-bottom:10px;
+      			text-align:left;
+      		}
+      		.preheaderContent div{
+      			color:#fff;
+      			font-family:Open Sans,Arial;
+      			font-size:10px;
+      			line-height:100%;
+      			text-align:left;
+      		}
+      		.preheaderContent div a:link,.preheaderContent div a:visited{
+      			color:#00A1C0;
+      			font-weight:normal;
+      			text-decoration:underline;
+      		}
+      		.preheaderContent div img{
+      			height:auto;
+      			max-width:600px;
+      		}
+      		#templateContainer{
+      			background:white;
+      		}
+      		#templateHeader{
+      			background-color:#FFFFFF;
+      			border-bottom:0;
+      			max-width:520px;
+      			width:100%;
+      		}
+      		.themeBack{
+      			max-width:600px;
+      			padding:36px 0 189px 0;
+      			background:no-repeat center auto 100%;
+      		}
+      		.headerContent{
+      			color:#000;
+      			font-family:Open Sans, Arial;
+      			font-size:11px;
+      			font-weight:bold;
+      			line-height:100%;
+      			padding:30px 20px 0px 20px;
+      			vertical-align:middle;
+      		}
+      		.headerContent a:link,.headerContent a:visited{
+      			color:#00A1C0;
+      			font-weight:normal;
+      			text-decoration:underline;
+      		}
+      		#headerImage{
+      			height:auto;
+      			max-width:600px !important;
+      		}
+      		.bodyContent{
+      			background-color:#fff;
+      		}
+      		.bodyContent .bodyContentArea{
+      			margin:50px 20px 30px 20px;
+      			padding-bottom:30px;
+      			color:#868F91;
+      			font-family:Open Sans,Arial;
+      			font-size:14px;
+      			line-height:26px;
+      			text-align:left;
+      			border-bottom:1px solid #EBEBEB;
+      		}
+      		.bodyContent .bodyContentArea a:link,.bodyContent .bodyContentArea a:visited{
+      			color:#00A1C0;
+      			font-weight:normal;
+      			text-decoration:underline;
+      		}
+      		.bodyContent img{
+      			display:inline;
+      			margin-bottom:10px;
+      		}
+      		.bodyContent li{
+      			color:#00A1C0;
+      			padding-bottom:5px;
+      			padding-top:5px;
+      		}
+      		.bodyContent li span{
+      			color:#222222;
+      		}
+      		.bodyContent .btn{
+      			border:1px solid #00A1C0;
+      			padding:10px;
+      			text-align:center;
+      			border-radius:2px;
+      		}
+      		.bodyContent .bodyContentArea .btn a:link,.bodyContent .bodyContentArea .btn a:visited{
+      			text-decoration:none;
+      		}
+      		.bodyContent .btn span{
+      			color:#00A1C0;
+      			text-transform:uppercase;
+      			margin:0 20px;
+      			font-size:14px;
+      			font-family:Open Sans,Arial;
+      		}
+      		.bodyContent .btnOuterDark .btn{
+      			background:#00A1C0;
+      		}
+      		.bodyContent .btnOuterDark .btn span{
+      			color:white;
+      		}
+      		#templateFooter{
+      			border-top:0;
+      		}
+      		.footerContent div{
+      			color:rgba(235,235,235,0.59);
+      			font-family:Open Sans, Arial;
+      			font-size:12px;
+      			line-height:125%;
+      			text-align:left;
+      		}
+      		.footerContent div a:link,.footerContent div a:visited{
+      			color:#00A1C0;
+      			font-weight:normal;
+      			text-decoration:underline;
+      		}
+      		.footerContent img{
+      			display:inline;
+      		}
+      		#learnMore{
+      			background-color:#fff;
+      			color:#000;
+      		}
+      		#learnMore div{
+      			color:#000;
+      			font-size:10px;
+      			line-height:165%;
+      			text-align:center;
+      		}
+      		#social{
+      			background-color:#fff;
+      			padding:0 0 20px 0;
+      		}
+      		#social img{
+      			padding:0 4px;
+      		}
+      		#addressArea div{
+      			text-align:center;
+      			color:#606060;
+      			font-family:Open Sans, Arial;
+      			font-size:10px;
+      			line-height:165%;
+      		}
+      		#addressArea div a:link,#addressArea div a:visited{
+      			color:#404040;
+      			font-weight:normal;
+      			text-decoration:underline;
+      			font-family:Open Sans,Arial;
+      		}
+      		.bodyContent .bodyContentArea .usefullLinks{
+      			margin:0 auto;
+      			text-align:center;
+      			width:100%;
+      		}
+      		.bodyContent .bodyContentArea .usefullLinks a:link,.bodyContent .bodyContentArea .usefullLinks a:visited{
+      			text-decoration:none;
+      		}

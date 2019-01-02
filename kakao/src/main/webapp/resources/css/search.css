@@ -1,0 +1,75 @@
+
+.box
+{
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	width:340px;
+	transform: translate(-50%,-50%);
+}
+input
+{
+	position: relative;
+	display: inline-block;
+	font-size:20px;
+	box-sizing: border-box;
+	transition : .5s;
+
+}
+input[type="text"]
+{
+	background: #fff;
+	width: 170px;
+	height: 30px;
+	border: none;
+	outline: none;
+	paddding: 0 25px;
+}
+input[type="button"]
+{
+	position: relative;
+	width: 80px;
+	height: 30px;
+	border: 40px;
+	outline: none;
+	outline: none;
+	cursor: pointer;
+	background: #ffc107;
+	color: #fff;
+}
+input[type="button"]:hover
+{
+	background: #ff5722;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
