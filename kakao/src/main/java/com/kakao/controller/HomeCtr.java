@@ -14,9 +14,6 @@ public class HomeCtr {
 	
 	private static final Logger logger = LoggerFactory.getLogger(HomeCtr.class);
 	
-	/**
-	 * Simply selects the home view to render by returning its name.
-	 */
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale) {
 		logger.info("프로젝트트를 위한 톰캣서버 개시 및 시작", locale);
