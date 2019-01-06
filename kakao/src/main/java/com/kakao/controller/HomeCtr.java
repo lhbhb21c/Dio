@@ -14,8 +14,9 @@ public class HomeCtr {
 	
 	private static final Logger logger = LoggerFactory.getLogger(HomeCtr.class);
 	
+	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home(Locale locale) {
+	public String home() {
 		logger.info("프로젝트트를 위한 톰캣서버 개시 및 시작", locale);
 		
 		return "home";
