@@ -4,5 +4,5 @@ RDBMS가아닌 NOSQL을 사용해보고싶어서 NoSql중 대중화된 MongoDB�
 Xml로 파일 구성을 설정을 하였습니다
 
 ////////////////////////////////////////////////////////////
-https://github.com/lhbhb21c/Dio 에 만든 시큐리티를 적용한 게시판은
+https://github.com/lhbhb21c/Dio2 에 만든 시큐리티를 적용한 게시판은
 RDBMS(Oracle) 사용에 자바클래스로 구성설정, RabbitMQ를 사용하였습니다.
